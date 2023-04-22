@@ -30,7 +30,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://zziboooooo.github.io/portfolio_deploy/",
+  "homepage": "https://zziboooooo.github.io/portfolio_deploy",
   "eslintConfig": {
     "extends": [
       "react-app",

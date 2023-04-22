@@ -144,20 +144,47 @@
 }
 .overlayMenu .overlay_Content .overlay_menuBox p:hover,
 .overlayMenu .overlay_Content .overlay_menuBox a:hover {
-  color: rgb(111, 241, 235);
+  color: rgb(240, 101, 166);
+}
+.overlayMenu .overlay_Content .overlay_menuBox p:nth-child(2):hover,
+.overlayMenu .overlay_Content .overlay_menuBox a:nth-child(2):hover {
+  color: #ffbb3b;
+}
+.overlayMenu .overlay_Content .overlay_menuBox p:nth-child(3):hover,
+.overlayMenu .overlay_Content .overlay_menuBox a:nth-child(3):hover {
+  color: #4dafff;
 }
 .overlayMenu .overlay_Content .overlay_menuBox .nav_locations {
   display: flex;
+  margin-left: 5px;
 }
-.overlayMenu .overlay_Content .overlay_menuBox .nav_locations p {
+.overlayMenu .overlay_Content .overlay_menuBox .nav_locations p,
+.overlayMenu .overlay_Content .overlay_menuBox .nav_locations a {
   font-family: "Inter";
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #e4e4e4;
+  margin-right: 8px;
+  margin-top: 10px;
+  position: relative;
+  transition: 0.4s;
 }
-.overlayMenu .overlay_Content .overlay_menuBox .nav_locations p:first-child {
-  margin-right: 20px;
-  font-size: 1.1rem;
+.overlayMenu .overlay_Content .overlay_menuBox .nav_locations p:before {
+  position: absolute;
+  bottom: -10%;
+  display: block;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: rgb(204, 204, 204);
+  transform-origin: left;
+  transition: 0.3s;
+}
+.overlayMenu .overlay_Content .overlay_menuBox .nav_locations p:hover {
+  transform: translateY(-3px);
+}
+.overlayMenu .overlay_Content .overlay_menuBox .nav_locations p:hover:before {
+  width: 90%;
 }
 .overlayMenu .overlay_Content .overlay_wiseBox {
   font-family: "Inter";

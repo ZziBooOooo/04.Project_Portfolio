@@ -125,6 +125,7 @@ const Introduce = () => {
         scrollTrigger: {
           trigger: ".reveal2",
           scroller: ".App",
+          start: "top 80%",
           toggleActions: "restart none none reset",
         },
       });
@@ -132,6 +133,7 @@ const Introduce = () => {
         scrollTrigger: {
           trigger: ".reveal22",
           scroller: ".App",
+          start: "top 80%",
           toggleActions: "restart none none reset",
         },
       });
@@ -139,6 +141,7 @@ const Introduce = () => {
         scrollTrigger: {
           trigger: ".reveal3",
           scroller: ".App",
+          start: "top center",
           toggleActions: "restart none none reset",
         },
       });
@@ -187,7 +190,7 @@ const Introduce = () => {
         })
         .from(".reveal22 img", 1.5, {
           yPercent: -100,
-          scale: 1.15,
+          scale: 1.3,
           delay: -1.5,
           ease: "power2.out",
         });
@@ -211,6 +214,30 @@ const Introduce = () => {
           ease: "Expo.easeOut",
         });
 
+      let t4 = gsap.timeline({
+        scrollTrigger: {
+          trigger: ".Introduce_textBox",
+          scroller: ".App",
+          start: "top 50%",
+          toggleActions: "restart none none reset",
+        },
+      });
+
+      t4.to(".Introduce_leftTextBox", {
+        y: 0,
+        ease: "Expo.easeOut",
+        autoAlpha: 1,
+        duration: 3,
+      });
+
+      t4.to(".Introduce_rightTextBox ", {
+        y: 0,
+        ease: "Expo.easeOut",
+        autoAlpha: 1,
+        duration: 3,
+        delay: -2.7,
+      });
+
       ScrollTrigger.refresh();
     }, 1000);
 
@@ -224,6 +251,29 @@ const Introduce = () => {
   return (
     <div className="Introduce_FullBox" ref={introFullRef}>
       <div className="Introduce_ContentBox">
+        <section className="Introduce_textBox">
+          <div className="Introduce_leftTextBox">
+            <p> 조 민 서 </p>
+            <div>
+              <p>JO MIN SUH</p>
+              <p>1999.12.31</p>
+              <p>경기도 하남시, 대한민국</p>
+            </div>
+          </div>
+          <div className="Introduce_rightTextBox">
+            <p>: Creative</p>
+            <div>
+              <p>안녕하세요. </p>
+              <p>
+                창의적인 아이디어를 현실화하는 프론트엔드 개발자 조민서 입니다.
+              </p>
+              <p>
+                상상하는 모든 것을 직접 만들 수 있다는 프로그래밍의 매력에 빠져{" "}
+              </p>
+              <p>개발자의 길을 선택하게 되었습니다.</p>
+            </div>
+          </div>
+        </section>
         <section className="Introduce_Section Section1">
           <div className="container">
             <div className="reveal">
@@ -237,9 +287,11 @@ const Introduce = () => {
 
             <div className="I_Section_textBox TextBox1">
               <p>웹 디자인에 관심을 가지고 있습니다.</p>
-              <p>사용자 경험과 시각적 디자인 등</p>
-              <p>다양한 측면에서 지속적으로</p>
-              <p>학습하며 발전해 나가고 있습니다.</p>
+              <p>디자인과 개발을 통합하여 사용자경험의 개선과</p>
+              <p>시각적 품질향상에 도움이 된다고 생각합니다.</p>
+              <p>웹 디자인에 대한 이해를 가진 프론트엔드 개발자는</p>
+              <p>디자이너와의 협업을 더욱 원활하게</p>
+              <p>이룰 수 있다고 생각합니다.</p>
             </div>
           </div>
         </section>

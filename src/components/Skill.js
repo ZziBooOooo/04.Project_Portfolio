@@ -151,9 +151,9 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>HTML5</p>
-                <p>시맨틱 마크업에 대해</p>
-                <p>알고있으며 기본기능을</p>
-                <p>최대한 사용하려고 합니다</p>
+                <p>시맨틱 태그에 대해</p>
+                <p>알고있으며 레이아웃의</p>
+                <p>구조를 잡을 수 있습니다</p>
               </div>
             </div>
           </div>
@@ -167,8 +167,8 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>CSS</p>
-                <p>시맨틱 마크업에 대해</p>
-                <p>알고있으며 기본기능을</p>
+                <p>css를 활용해 스타일을 </p>
+                <p>적용할 수 있으며 기본기능을</p>
                 <p>최대한 사용하려고 합니다</p>
               </div>
             </div>
@@ -217,8 +217,8 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>REACT</p>
-                <p>리액트를 사용하여 </p>
-                <p>컴포넌트 기반 웹 애플리케이션의</p>
+                <p>리액트를 활용해 컴포넌트 기반</p>
+                <p>웹 어플리케이션의</p>
                 <p>상태 관리와 데이터 흐름을</p>
                 <p>효과적으로 다룰 수 있습니다</p>
               </div>
@@ -235,8 +235,9 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>NEXT JS</p>
-                <p>SSR, SSG, 라우팅 등 NEXT JS의 기능을</p>
-                <p>활용한 웹사이트 제작이 가능합니다</p>
+                <p>SSR, SSG, 라우팅 등 </p>
+                <p>NEXT JS의 기능을 활용해</p>
+                <p>웹사이트 제작을 할 수 있습니다</p>
               </div>
             </div>
           </div>
@@ -258,8 +259,8 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>NOTION</p>
-                <p>노션을 활용하여</p>
-                <p>프로젝트의 일정 관리와 파일 공유 등을</p>
+                <p>노션을 활용하여 프로젝트의 </p>
+                <p>일정 관리와 파일 공유 등을</p>
                 <p>효과적으로 진행한 경험이 있습니다.</p>
               </div>
             </div>
@@ -274,7 +275,7 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>FIGMA</p>
-                <p>피그마의 기본 사용법에 대해</p>
+                <p>피그마의 사용법에 대해</p>
                 <p>알고있으며 이를 기반으로 </p>
                 <p>웹페이지 제작이 가능합니다</p>
               </div>
@@ -290,7 +291,7 @@ const Skill = () => {
               </div>
               <div className="skill_des_textBox">
                 <p>GIT</p>
-                <p>깃의 기본문법에 대해</p>
+                <p>깃의 개념과 사용법을</p>
                 <p>알고있으며 이를 활용해</p>
                 <p>팀 프로젝트를 진행한 경험이 있습니다</p>
               </div>

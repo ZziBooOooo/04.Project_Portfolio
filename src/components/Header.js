@@ -194,6 +194,12 @@ const Header = () => {
       1.9
     );
   };
+
+  function goProject() {
+    setTimeout(() => {
+      navigate("/project/0");
+    }, 2000);
+  }
   return (
     <>
       <div className="overlay-3"></div>
@@ -211,18 +217,24 @@ const Header = () => {
           <div className="overlay_menuBox">
             <p>Main Page</p>
             <a
-              href="/project/0"
               onClick={() => {
                 closeOverlayMenu();
+                goProject();
               }}
             >
               My Projects
             </a>
             <p>Thanks!</p>
             <div className="nav_locations">
-              <p>Others</p>
-              <p>Email</p>
-              <p>Github</p>
+              <p>
+                {" "}
+                <a href="mailto:zziboo3773@gmail.com">Email</a>
+              </p>
+              <p>
+                <a href="https://github.com/ZziBooOooo" target="_blank">
+                  Github
+                </a>
+              </p>
             </div>
           </div>
           <div className="overlay_wiseBox">

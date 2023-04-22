@@ -143,23 +143,49 @@
         font-family: "Ageo Bold";
 
         &:hover {
-          color: rgb(111, 241, 235);
+          color: rgb(240, 101, 166);
+        }
+        &:nth-child(2):hover {
+          color: #ffbb3b;
+        }
+        &:nth-child(3):hover {
+          color: #4dafff;
         }
       }
 
       .nav_locations {
         display: flex;
-        p {
+        margin-left: 5px;
+        p,
+        a {
           font-family: "Inter";
-          font-size: 1rem;
+          font-size: 1.1rem;
           font-weight: 400;
           color: #e4e4e4;
           // border-bottom: 2px solid white;
+          margin-right: 8px;
+          margin-top: 10px;
+          position: relative;
+          transition: 0.4s;
         }
 
-        p:first-child {
-          margin-right: 20px;
-          font-size: 1.1rem;
+        p:before {
+          position: absolute;
+          bottom: -10%;
+          display: block;
+          content: "";
+          width: 0%;
+          height: 2px;
+          background-color: rgb(204, 204, 204);
+          transform-origin: left;
+          transition: 0.3s;
+        }
+
+        p:hover {
+          transform: translateY(-3px);
+          &:before {
+            width: 90%;
+          }
         }
       }
     }

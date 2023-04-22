@@ -124,6 +124,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin-right: 10px;
+  text-align: left;
   transition: transform 0.5s;
 }
 .skill_FullBox .skill_ContentBox .skill_Section1 .skill_Section_FullDiv .skill_alphaBox .skill_des_textBox p {

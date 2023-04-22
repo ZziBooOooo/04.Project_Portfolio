@@ -25,6 +25,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  margin-bottom: 100px;
 }
 .about_FullBox .menu {
   color: transparent;
@@ -101,6 +102,52 @@
   max-width: 1600px;
   font-family: "Inter";
   margin-top: 50px;
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox {
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans KR";
+  text-align: left;
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_leftTextBox {
+  width: 50%;
+  opacity: 0;
+  transform: translateY(50px);
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_leftTextBox > p {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_leftTextBox div {
+  overflow: hidden;
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox {
+  width: 50%;
+  opacity: 0;
+  transform: translateY(50px);
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox > p {
+  font-size: 5rem;
+  font-style: italic;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox div {
+  overflow: hidden;
+  min-width: 550px;
+}
+.Introduce_FullBox .Introduce_ContentBox .Introduce_textBox p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 .Introduce_FullBox .Introduce_ContentBox .container {
   display: flex;
@@ -189,6 +236,7 @@
   top: 50%;
   right: 0%;
   transform: translateY(-50%);
+  overflow: hidden;
 }
 .Introduce_FullBox .Introduce_ContentBox .Section2 .container img {
   height: 100%;
@@ -216,6 +264,7 @@
   order: 2;
   bottom: 10%;
   left: 10%;
+  overflow: hidden;
 }
 .Introduce_FullBox .Introduce_ContentBox .Section2 .container2 img {
   height: 100%;
@@ -317,6 +366,15 @@
   .about_FullBox .about_scrollTextBox2 p {
     font-size: 6rem;
   }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox {
+    width: 40%;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox {
+    width: 60%;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox div {
+    min-width: 500px;
+  }
   .Introduce_FullBox .Introduce_ContentBox .Introduce_Section {
     align-items: center;
     margin-bottom: 250px;
@@ -363,6 +421,27 @@
   .about_FullBox .about_scrollTextBox p,
   .about_FullBox .about_scrollTextBox2 p {
     font-size: 4rem;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox {
+    flex-direction: column;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_leftTextBox {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_leftTextBox > p {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox {
+    width: 100%;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox > p {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .Introduce_FullBox .Introduce_ContentBox .Introduce_textBox .Introduce_rightTextBox div {
+    min-width: 300px;
   }
   .Introduce_FullBox .Introduce_ContentBox .Introduce_Section {
     align-items: flex-start;

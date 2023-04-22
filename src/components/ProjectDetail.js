@@ -367,9 +367,15 @@ const ProjectDetail = () => {
               <p>My Projects</p>
               <p>Thanks!</p>
               <div className="nav_locations">
-                <p>Others</p>
-                <p>Email</p>
-                <p>Github</p>
+                <p>
+                  {" "}
+                  <a href="mailto:zziboo3773@gmail.com">Email</a>
+                </p>
+                <p>
+                  <a href="https://github.com/ZziBooOooo" target="_blank">
+                    Github
+                  </a>
+                </p>
               </div>
             </div>
             <div className="cover_wiseBox">

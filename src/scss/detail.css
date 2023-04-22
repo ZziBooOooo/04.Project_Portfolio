@@ -5,7 +5,7 @@
 /*반응형, 브라우저 크기가 1024px 이상일때*/
 .detail_fullBox {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   color: rgb(36, 35, 35);
   display: flex;
   flex-direction: column;
@@ -285,20 +285,47 @@
 }
 .coverMenu .cover_Content .cover_menuBox p:hover,
 .coverMenu .cover_Content .cover_menuBox a:hover {
-  color: rgb(111, 241, 235);
+  color: rgb(240, 101, 166);
+}
+.coverMenu .cover_Content .cover_menuBox p:nth-child(2):hover,
+.coverMenu .cover_Content .cover_menuBox a:nth-child(2):hover {
+  color: #ffbb3b;
+}
+.coverMenu .cover_Content .cover_menuBox p:nth-child(3):hover,
+.coverMenu .cover_Content .cover_menuBox a:nth-child(3):hover {
+  color: #4dafff;
 }
 .coverMenu .cover_Content .cover_menuBox .nav_locations {
   display: flex;
+  margin-left: 5px;
 }
-.coverMenu .cover_Content .cover_menuBox .nav_locations p {
+.coverMenu .cover_Content .cover_menuBox .nav_locations p,
+.coverMenu .cover_Content .cover_menuBox .nav_locations a {
   font-family: "Inter";
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #e4e4e4;
+  margin-right: 8px;
+  margin-top: 10px;
+  position: relative;
+  transition: 0.4s;
 }
-.coverMenu .cover_Content .cover_menuBox .nav_locations p:first-child {
-  margin-right: 20px;
-  font-size: 1.1rem;
+.coverMenu .cover_Content .cover_menuBox .nav_locations p:before {
+  position: absolute;
+  bottom: -10%;
+  display: block;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: rgb(204, 204, 204);
+  transform-origin: left;
+  transition: 0.3s;
+}
+.coverMenu .cover_Content .cover_menuBox .nav_locations p:hover {
+  transform: translateY(-3px);
+}
+.coverMenu .cover_Content .cover_menuBox .nav_locations p:hover:before {
+  width: 90%;
 }
 .coverMenu .cover_Content .cover_wiseBox {
   font-family: "Inter";

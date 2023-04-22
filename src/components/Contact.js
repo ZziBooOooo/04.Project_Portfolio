@@ -3,7 +3,7 @@ import "../scss/contact.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import arrow from "../assets/Images/arrow.png";
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 const Contact = () => {
   useLayoutEffect(() => {
@@ -13,7 +13,7 @@ const Contact = () => {
           scrollTrigger: {
             trigger: ".contact_FullBox",
             start: "top top",
-            end: "+=300%",
+            end: "+=250%",
             scroller: ".App",
             pin: true,
             scrub: 1,
@@ -40,23 +40,38 @@ const Contact = () => {
         })
         .to(".contact_linkBox", {
           y: 0,
-          delay: 0.5,
+          opacity: 1,
+          delay: 0.3,
         });
 
+      ScrollTrigger.create({
+        trigger: ".contact_FullBox",
+        start: "top 70%",
+        scroller: ".App",
+        scrub: 1,
+        onEnter: () => {
+          gsap.to(
+            ".magicText0",
+
+            {
+              y: 0,
+              opacity: 1,
+              ease: "power4.out",
+              duration: 2,
+            }
+          );
+        },
+      });
       ScrollTrigger.refresh();
     }, 1000);
 
     ScrollTrigger.refresh();
-
-    return () => {
-      ScrollTrigger.kill();
-    };
   }, []);
   return (
     <div className="contact_FullBox" id="contact">
       <div className="contact_ContentBox">
         <div className="contact_TextBox">
-          <p>LET'S MAKE A</p>
+          <p className="magicText0">LET'S MAKE A</p>
           <p className="magicText">MAGIC!</p>
         </div>
         <div className="contact_linkBox">

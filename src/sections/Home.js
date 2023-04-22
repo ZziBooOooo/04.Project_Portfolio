@@ -51,8 +51,14 @@ const Home = () => {
             <div className="main_thirdTextBox">
               <span className="mainAni">DEVELOPER</span>
               <div className="main_ContactBox mainAni">
-                <p>EMAIL</p>
-                <p>GITHUB</p>
+                <p>
+                  <a href="mailto:zziboo3773@gmail.com">EMAIL</a>
+                </p>
+                <p>
+                  <a href="https://github.com/ZziBooOooo" target="_blank">
+                    GITHUB
+                  </a>
+                </p>
               </div>
             </div>
           </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_deploy/static/css/main.0921b0c4.css",
-    "main.js": "/portfolio_deploy/static/js/main.01caf0fa.js",
+    "main.css": "/portfolio_deploy/static/css/main.d4002b38.css",
+    "main.js": "/portfolio_deploy/static/js/main.49ef5474.js",
     "static/media/exper2.gif": "/portfolio_deploy/static/media/exper2.4ec5d8fcb8ebc4f5af95.gif",
     "static/media/design.gif": "/portfolio_deploy/static/media/design.c617bee540bb97cfd41d.gif",
     "static/media/keyboard.png": "/portfolio_deploy/static/media/keyboard.09e68d22cb1368270df6.png",
@@ -18,11 +18,11 @@
     "static/media/kaushan-script-latin-ext-400-normal.woff2": "/portfolio_deploy/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
     "static/media/2.png": "/portfolio_deploy/static/media/2.905281f9a19e728d2501.png",
     "index.html": "/portfolio_deploy/index.html",
-    "main.0921b0c4.css.map": "/portfolio_deploy/static/css/main.0921b0c4.css.map",
-    "main.01caf0fa.js.map": "/portfolio_deploy/static/js/main.01caf0fa.js.map"
+    "main.d4002b38.css.map": "/portfolio_deploy/static/css/main.d4002b38.css.map",
+    "main.49ef5474.js.map": "/portfolio_deploy/static/js/main.49ef5474.js.map"
   },
   "entrypoints": [
-    "static/css/main.0921b0c4.css",
-    "static/js/main.01caf0fa.js"
+    "static/css/main.d4002b38.css",
+    "static/js/main.49ef5474.js"
   ]
 }

@@ -259,8 +259,13 @@ const Header = () => {
       </div>
       <div className="header_FullBox " ref={headerRef}>
         <div className="header_Box">
-          <div className="header_Logo">
-            <a href="/">J.MINSUH</a>
+          <div
+            className="header_Logo"
+            onClick={() => {
+              window.location.href = "/portfolio_deploy";
+            }}
+          >
+            J.MINSUH
           </div>
           <div
             className="header_MenuBox"

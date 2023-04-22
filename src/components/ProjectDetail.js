@@ -408,11 +408,11 @@ const ProjectDetail = () => {
             <div className="header_Box">
               <div
                 className="header_Logo2"
-                // onClick={() => {
-                //   navigate("/");
-                // }}
+                onClick={() => {
+                  window.location.href = "/portfolio_deploy";
+                }}
               >
-                <a href="/">J.MINSUH</a>
+                J.MINSUH
               </div>
               <div
                 className="header_MenuBox"

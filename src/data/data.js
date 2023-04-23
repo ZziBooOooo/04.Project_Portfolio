@@ -4,14 +4,13 @@ let data = [
     title: "Weather Look",
     tool: "JavaScript, Fetch API, Geolocation API",
     description: [
-      "웨더룩은 현재 사용자 위치를 기반으로",
-      "날씨 정보를 실시간으로 수집하여",
+      "웨더룩은 현재 사용자 위치에 기반해 실시간 날씨 정보를 수집하고",
       "성별과 개인의 평소 스타일을 고려하여",
-      "최적의 코디를 추천해주는 서비스입니다",
+      "오늘 날씨에 맞는 최적의 코디를 추천해주는 서비스입니다",
     ],
     issue: {
       sentence1: [
-        "필요한 것이 있으면 적극적으로 요청하고",
+        "필요한 것이 있으면 팀원에게 적극적으로 요청하고",
         "역할에 맞는 업무 분담을 통해 협업을 경험하였습니다.",
       ],
       sentence2: [
@@ -20,6 +19,8 @@ let data = [
         "API를 활용해 데이터를 관리하고 사용하는 방법을 이해했습니다.",
       ],
     },
+    projectURL: "https://weatherlook.github.io/WeatherLook/",
+    githubURL: "https://github.com/WeatherLook/WeatherLook",
   },
 
   {
@@ -29,7 +30,7 @@ let data = [
     description: [
       "Month Mood는 Giphy에서 제공하는 API를 이용해",
       "오늘의 기분에 따라 움짤로 일기를 작성하는 서비스입니다.",
-      "로그인, 회원가입과 현재 트렌드, 다크모드 등을 구현하였습니다.",
+      "현재 트렌드 페이지와 작성한 일기를 모아둔 보관함 기능이 있습니다.",
     ],
     issue: {
       sentence1: [
@@ -45,6 +46,8 @@ let data = [
         "HTML의 data-theme 속성과 css를 이용해 다크모드를 구현했습니다",
       ],
     },
+    projectURL: "https://zziboooooo.github.io/Project_MonthMood/",
+    githubURL: "https://github.com/ZziBooOooo/Project_MonthMood",
   },
 
   {
@@ -52,9 +55,10 @@ let data = [
     title: "Moa",
     tool: "Next JS, Axios API, Open API(DALL-E), Cloudinary API, Papago API, Mongo DB, Next Auth, Framer Motion",
     description: [
-      "MOA는 Open AI에서 제공하는 인공지능 이미지 생성 DALL-E API를 활용한 프로젝트입니다.",
-      "7가지의 미션이 제공되며 미션 성공시 코인이 적립됩니다.",
-      "코인으로 단어를 구입하고 구입한 단어를 활용해 이미지를 생성할 수 있습니다.",
+      "MOA는 Open AI에서 제공하는 인공지능 이미지 생성 API를 활용한 프로젝트입니다.",
+      "코인으로 단어를 구입할 수 있고 구입한 단어를 활용해 이미지를 생성할 수 있습니다.",
+      "코인 적립을 위한 미션은 7가지 중 랜덤으로 제공됩니다.",
+      "내가 만든 이미지를 모아두는 앨범기능과 다른 사용자들의 이미지를 볼 수 있는 기능이 제공됩니다.",
     ],
     issue: {
       sentence1: [
@@ -73,6 +77,8 @@ let data = [
         "API 간의 순서가 중요했기 때문에, 이를 해결하면서 동기와 비동기 개념을 이해하게 되었습니다.",
       ],
     },
+    projectURL: "https://port-0-moa-nx562olf6rpmql.sel3.cloudtype.app/",
+    githubURL: "https://github.com/Green-Team-D/MOA",
   },
   {
     id: 3,
@@ -99,6 +105,8 @@ let data = [
         "디자인과 개발을 통합하여 웹 사이트를 구현하는 방법에 대해 학습할 수 있었습니다.",
       ],
     },
+    projectURL: "https://zziboooooo.github.io/portfolio_deploy/",
+    githubURL: "https://github.com/ZziBooOooo/portfolio_deploy",
   },
 ];
 

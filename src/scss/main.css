@@ -67,6 +67,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transform: translateY(0%);
 }
 .main_FullBox .main_MainFullBox .main_TextBox .main_secondTextBox {
   overflow: hidden;

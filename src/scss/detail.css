@@ -38,15 +38,26 @@
      object-fit: cover;
   box-shadow: 3px 4px 8px rgba(46, 46, 46, 0.301);
 }
-.detail_fullBox .detail_imgWrap::before {
+.detail_fullBox .detail_prjLink {
+  height: 100%;
   display: block;
-  content: "";
+  position: relative;
+  z-index: 5000;
+}
+.detail_fullBox .detail_githubLink {
   position: absolute;
   font-family: "Noto Sans KR";
-  bottom: -3%;
-  right: 0;
-  font-size: 0.95rem;
-  color: rgb(134, 131, 129);
+  bottom: -8%;
+  left: 0;
+  font-size: 1rem;
+  color: rgb(160, 158, 156);
+  transition: 0.4s;
+  font-weight: 600;
+  opacity: 1 !important;
+}
+.detail_fullBox .detail_githubLink:hover {
+  color: #3b3939;
+  transform: translateY(-3px);
 }
 .detail_fullBox .detail_contentBox {
   width: 60%;
@@ -159,10 +170,11 @@
   top: 0;
   left: 0;
   display: none;
-  z-index: 1200;
+  z-index: 2000;
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 .hoverCursorBox img {
   width: 60%;

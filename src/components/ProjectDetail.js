@@ -356,9 +356,8 @@ const ProjectDetail = () => {
           <div className="cover_Content">
             <div className="cover_menuBox">
               <a
-                href="/"
                 onClick={() => {
-                  closeCoverMenu();
+                  window.location.href = "/portfolio_deploy";
                 }}
               >
                 Main Page
@@ -433,12 +432,29 @@ const ProjectDetail = () => {
           <div className="detail_box">
             <div
               className="detail_imgWrap"
-              onMouseEnter={(event) => showCursor(event)}
-              onMouseLeave={() => hideCursor()}
-              onMouseMove={(event) => trackCursor(event)}
+              onClick={() => {
+                window.open(detailData.projectURL, "_blank");
+              }}
             >
-              <img src={imgMap[id]} alt={`Project ${id}`} />
+              <img
+                src={imgMap[id]}
+                alt={`Project ${id}`}
+                onMouseEnter={(event) => showCursor(event)}
+                onMouseLeave={() => hideCursor()}
+                onMouseMove={(event) => trackCursor(event)}
+              />
+
+              <div
+                className="detail_githubLink"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  window.open(detailData.githubURL, "_blank");
+                }}
+              >
+                Github
+              </div>
             </div>
+
             <div className="detail_contentBox">
               <div className="datail_titleBox text1">
                 <p className="detail_title ">Title</p>
@@ -473,6 +489,7 @@ const ProjectDetail = () => {
               </div>
             </div>
           </div>
+
           <div
             className="arrowBox "
             onClick={() => {

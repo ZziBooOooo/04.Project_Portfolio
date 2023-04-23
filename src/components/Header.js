@@ -35,8 +35,6 @@ const Header = () => {
     }, 1000);
 
     ScrollTrigger.refresh();
-
-    console.log(header);
   }, []);
 
   useEffect(() => {

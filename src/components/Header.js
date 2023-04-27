@@ -260,7 +260,7 @@ const Header = () => {
           <div
             className="header_Logo"
             onClick={() => {
-              window.location.href = "/portfolio_deploy";
+              window.location.href = "/04.Project_Portfolio";
             }}
           >
             J.MINSUH

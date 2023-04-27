@@ -105,8 +105,8 @@ let data = [
         "디자인과 개발을 통합하여 웹 사이트를 구현하는 방법에 대해 학습할 수 있었습니다.",
       ],
     },
-    projectURL: "https://zziboooooo.github.io/portfolio_deploy/",
-    githubURL: "https://github.com/ZziBooOooo/portfolio_deploy",
+    projectURL: "https://zziboooooo.github.io/04.Project_Portfolio/",
+    githubURL: "https://github.com/ZziBooOooo/04.Project_Portfolio",
   },
 ];
 

@@ -357,7 +357,7 @@ const ProjectDetail = () => {
             <div className="cover_menuBox">
               <a
                 onClick={() => {
-                  window.location.href = "/portfolio_deploy";
+                  window.location.href = "/04.Project_Portfolio";
                 }}
               >
                 Main Page
@@ -408,7 +408,7 @@ const ProjectDetail = () => {
               <div
                 className="header_Logo2"
                 onClick={() => {
-                  window.location.href = "/portfolio_deploy";
+                  window.location.href = "/04.Project_Portfolio";
                 }}
               >
                 J.MINSUH

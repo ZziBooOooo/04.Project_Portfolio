@@ -46,8 +46,8 @@ let data = [
         "HTML의 data-theme 속성과 css를 이용해 다크모드를 구현했습니다",
       ],
     },
-    projectURL: "https://zziboooooo.github.io/Project_MonthMood/",
-    githubURL: "https://github.com/ZziBooOooo/Project_MonthMood",
+    projectURL: "https://zziboooooo.github.io/02.Project_MonthMood/",
+    githubURL: "https://github.com/ZziBooOooo/02.Project_MonthMood",
   },
 
   {
